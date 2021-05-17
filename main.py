@@ -22,7 +22,6 @@ class Application(QtWidgets.QMainWindow, gui.Ui_MainWindow):
         super().__init__()
         self.setupUi(self)
 
-        self.slider_rainbow.setValue(0)
         self.box_lambda.setValue(380)
         self.box_Ex_Ey.setValue(1.00)
         self.box_delta_fi.setValue(0.50)
